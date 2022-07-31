@@ -28,7 +28,7 @@ public class Recres {
 
     public static void recresprog1(int i){
 
-        RestAssured.baseURI=reOBJ.readPropertiesFile("recresURI")+String.valueOf(i);
+        RestAssured.baseURI=reOBJ.readPropertiesFile("recresURI")+"/"+String.valueOf(i);
         Response res = RestAssured.get();
         int ststua_Code = res.getStatusCode();
         System.out.println("After hitting Google URL , status code is :"+ ststua_Code);
