@@ -1,15 +1,12 @@
 package restAssured;
 
 import io.restassured.RestAssured;
+import io.restassured.RestAssured.*;
 import io.restassured.response.Response;
 import org.junit.Assert;
 import reusable.Reusable;
-import org.apache.log4j.Logger;
-import org.apache.log4j.PropertyConfigurator;
 
 public class GoogleTest {
-
-    static Logger log ;
 
 
     public static Reusable reOBJ ;
@@ -18,8 +15,6 @@ public class GoogleTest {
 
 
     public static void main(String[] args)throws Exception{
-        log = Logger.getLogger(GoogleTest.class);
-        PropertyConfigurator.configure(System.getProperty("user.dir")+ "/resources/resources/log4j.properties");
 
 
         reOBJ = new Reusable();
@@ -39,7 +34,6 @@ public class GoogleTest {
         Assert.assertEquals(Integer.parseInt(reOBJ.readPropertiesFile("responseStatus")) , ststua_Code);
         String resBody = res.getBody().asString();
         System.out.println("After hitting Google URL , response looks like :"+ resBody);
-        log.info(resBody);
 
     }
 

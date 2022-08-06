@@ -28,7 +28,7 @@ public class createPetID {
     public static void users_post_call_pet(int pet_id){
 
         RestAssured.baseURI=reOBJ.readPropertiesFile("perbaseURI");
-        Response res = RestAssured.given().contentType(ContentType.JSON).body(postBody.createPetIdBody(pet_id ,"Mithun")).post();
+        Response res = RestAssured.given().contentType(ContentType.JSON).body(postBody.createPetIdBody(pet_id)).post();
         int ststua_Code = res.getStatusCode();
         System.out.println("After hitting Google URL , status code is :"+ ststua_Code);
         Assert.assertEquals(Integer.parseInt(reOBJ.readPropertiesFile("responseStatus")) , ststua_Code);
