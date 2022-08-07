@@ -119,6 +119,65 @@ public class SoapTestScenario1 {
     }
 
 
+    @Test
+    public void validateWithContains_SOAP_1(){
+
+
+        Response response =
+
+                get("https://chercher.tech/sample/api/books.xml");
+
+        String res = response.getBody().asString();
+
+        if(res.contains("Harry Potter")){
+
+            System.out.println("Yes , the expected text is available==>"+"Harry Potter");
+        }
+        else{
+            System.out.println("No , the expected text is not available==>"+"Harry Potter");
+        }
+
+
+    }
+
+
+    @Test
+    public void validateWithContains_SOAP_2(){
+
+
+        Response response =
+
+                get("https://chercher.tech/sample/api/books.xml");
+
+        String res = response.getBody().asString();
+
+        XmlPath xml_path_obj = new XmlPath(res).using(xmlPathConfig().namespaceAware(false));
+
+        // First get the count of node you want to test ...
+
+        int xmlPathcount = xml_path_obj.get("bookstore.book.title.size()");
+        System.out.println("Count is ==>"+xmlPathcount);
+
+        for(int a=0;a<xmlPathcount;a++){
+
+            String title = xml_path_obj.getString("bookstore.book["+a+"].title");
+
+            if(title.equals("Harry Potter")){
+
+                System.out.println("Yes , the expected text is available==>"+"Harry Potter");
+                break;
+            }
+
+
+        }
+
+
+
+
+
+    }
+
+
 
 
 

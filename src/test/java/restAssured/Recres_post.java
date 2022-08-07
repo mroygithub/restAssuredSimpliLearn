@@ -4,7 +4,10 @@ import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import org.junit.Assert;
+import org.testng.annotations.Test;
 import reusable.Reusable;
+
+import static io.restassured.RestAssured.given;
 
 public class Recres_post {
 
@@ -36,21 +39,6 @@ public class Recres_post {
         System.out.println("After hitting Google URL , response looks like :"+ resBody);
 
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
