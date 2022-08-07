@@ -3,35 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="786fc6b8-7207-4b68-a654-dde35ee7baf5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestReport.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/resources/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/testNG/testNG.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/jsonBody/testJsonbody.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/jsonBody/testJsonbody.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/rest/hello1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/restAssured/GoogleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/restAssured/GoogleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/restAssured/Recres.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/restAssured/Recres.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/restAssured/Recres_post.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/restAssured/Recres_post.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/restAssured/createPetID.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/restAssured/createPetID.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/reusable/FirstLof.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/soap/soap.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/soap/soap1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/soap/soap2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/resources/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/testNG/testNG.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/jsonBody/testJsonbody.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/jsonBody/testJsonbody.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/rest/hello1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/restAssured/GoogleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/restAssured/GoogleTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/restAssured/Recres.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/restAssured/Recres.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/restAssured/Recres_post.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/restAssured/Recres_post.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/restAssured/createPetID.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/restAssured/createPetID.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/reusable/FirstLof.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/reusable/Reusable.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/reusable/Reusable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/soap/soap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/soap/soap1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/soap/soap2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testdata.properties" beforeDir="false" afterPath="$PROJECT_DIR$/testdata.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testdata.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/soap/SoapTestScenario1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/soap/SoapTestScenario1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/soap/SoapTestScenario1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/soap/SoapTestScenario1.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -46,8 +20,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="447">
-              <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
+            <state relative-caret-position="252">
+              <caret line="43" column="34" lean-forward="true" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -56,7 +30,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/restAssured/GoogleTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
-              <caret line="11" column="34" lean-forward="true" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+              <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -79,8 +53,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/soap/SoapTestScenario1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="9" column="56" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
+            <state relative-caret-position="180">
+              <caret line="132" lean-forward="true" selection-start-line="132" selection-end-line="132" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -100,8 +77,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testdata.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="74" lean-forward="true" selection-start-line="5" selection-start-column="72" selection-end-line="5" selection-end-column="74" />
+            <state relative-caret-position="105">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -138,8 +115,8 @@
         <option value="$PROJECT_DIR$/src/test/java/rest/hello1.java" />
         <option value="$PROJECT_DIR$/src/test/java/jsonBody/testJsonbody.java" />
         <option value="$PROJECT_DIR$/src/test/java/soap/soap1.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/testdata.properties" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/soap/SoapTestScenario1.java" />
       </list>
     </option>
@@ -234,7 +211,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1659802236153" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1659846352218" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -257,36 +234,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.SoapTestScenario1.CelsiusToFahrenheitResponse">
-    <configuration name="Recres_post" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="restAssured.Recres_post" />
-      <module name="comtestrestAssuredSL" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="restAssured.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SoapTestScenario1 (1)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="comtestrestAssuredSL" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="soap.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="soap" />
-      <option name="MAIN_CLASS_NAME" value="soap.SoapTestScenario1" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.SoapTestScenario1.doGetSoapCall_contains">
     <configuration name="SoapTestScenario1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="comtestrestAssuredSL" />
       <extension name="coverage">
@@ -297,24 +245,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="soap" />
       <option name="MAIN_CLASS_NAME" value="soap.SoapTestScenario1" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SoapTestScenario1.CelsiusToFahrenheitResponse (1)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="comtestrestAssuredSL" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="soap.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="soap" />
-      <option name="MAIN_CLASS_NAME" value="soap.SoapTestScenario1" />
-      <option name="METHOD_NAME" value="CelsiusToFahrenheitResponse" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -339,13 +269,67 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SoapTestScenario1.doGetSoapCall" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="comtestrestAssuredSL" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="soap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="soap" />
+      <option name="MAIN_CLASS_NAME" value="soap.SoapTestScenario1" />
+      <option name="METHOD_NAME" value="doGetSoapCall" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SoapTestScenario1.doGetSoapCall_2" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="comtestrestAssuredSL" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="soap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="soap" />
+      <option name="MAIN_CLASS_NAME" value="soap.SoapTestScenario1" />
+      <option name="METHOD_NAME" value="doGetSoapCall_2" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SoapTestScenario1.doGetSoapCall_contains" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="comtestrestAssuredSL" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="soap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="soap" />
+      <option name="MAIN_CLASS_NAME" value="soap.SoapTestScenario1" />
+      <option name="METHOD_NAME" value="doGetSoapCall_contains" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.SoapTestScenario1.CelsiusToFahrenheitResponse" />
+        <item itemvalue="TestNG.SoapTestScenario1.doGetSoapCall_contains" />
+        <item itemvalue="TestNG.SoapTestScenario1.doGetSoapCall_2" />
+        <item itemvalue="TestNG.SoapTestScenario1.doGetSoapCall" />
         <item itemvalue="TestNG.SoapTestScenario1" />
-        <item itemvalue="TestNG.SoapTestScenario1 (1)" />
-        <item itemvalue="TestNG.SoapTestScenario1.CelsiusToFahrenheitResponse (1)" />
-        <item itemvalue="Application.Recres_post" />
+        <item itemvalue="TestNG.SoapTestScenario1.CelsiusToFahrenheitResponse" />
       </list>
     </recent_temporary>
   </component>
@@ -363,42 +347,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SoapTestScenario1_CelsiusToFahrenheitResponse - 2022.08.06 at 20h 31m 08s.xml">
-      <configuration name="SoapTestScenario1.CelsiusToFahrenheitResponse" configurationId="TestNG" />
+    <history-entry file="SoapTestScenario1_doGetSoapCall_2 - 2022.08.06 at 23h 01m 05s.xml">
+      <configuration name="SoapTestScenario1.doGetSoapCall_2" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SoapTestScenario1_CelsiusToFahrenheitResponse - 2022.08.06 at 20h 32m 12s.xml">
-      <configuration name="SoapTestScenario1.CelsiusToFahrenheitResponse" configurationId="TestNG" />
+    <history-entry file="SoapTestScenario1_doGetSoapCall_contains - 2022.08.07 at 06h 59m 26s.xml">
+      <configuration name="SoapTestScenario1.doGetSoapCall_contains" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SoapTestScenario1 - 2022.08.06 at 20h 32m 39s.xml">
-      <configuration name="SoapTestScenario1" configurationId="TestNG" />
+    <history-entry file="SoapTestScenario1_doGetSoapCall_contains - 2022.08.07 at 07h 02m 52s.xml">
+      <configuration name="SoapTestScenario1.doGetSoapCall_contains" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SoapTestScenario1_CelsiusToFahrenheitResponse_(1) - 2022.08.06 at 20h 33m 13s.xml">
-      <configuration name="SoapTestScenario1.CelsiusToFahrenheitResponse (1)" configurationId="TestNG" />
+    <history-entry file="SoapTestScenario1_doGetSoapCall_contains - 2022.08.07 at 09h 33m 05s.xml">
+      <configuration name="SoapTestScenario1.doGetSoapCall_contains" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SoapTestScenario1_CelsiusToFahrenheitResponse - 2022.08.06 at 20h 40m 29s.xml">
-      <configuration name="SoapTestScenario1.CelsiusToFahrenheitResponse" configurationId="TestNG" />
+    <history-entry file="SoapTestScenario1_doGetSoapCall_contains - 2022.08.07 at 09h 34m 21s.xml">
+      <configuration name="SoapTestScenario1.doGetSoapCall_contains" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SoapTestScenario1_(1) - 2022.08.06 at 21h 33m 20s.xml">
-      <configuration name="SoapTestScenario1 (1)" configurationId="TestNG" />
+    <history-entry file="SoapTestScenario1_doGetSoapCall_contains - 2022.08.07 at 09h 35m 57s.xml">
+      <configuration name="SoapTestScenario1.doGetSoapCall_contains" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SoapTestScenario1 - 2022.08.06 at 21h 33m 26s.xml">
-      <configuration name="SoapTestScenario1" configurationId="TestNG" />
+    <history-entry file="SoapTestScenario1_doGetSoapCall_contains - 2022.08.07 at 09h 36m 51s.xml">
+      <configuration name="SoapTestScenario1.doGetSoapCall_contains" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SoapTestScenario1_CelsiusToFahrenheitResponse - 2022.08.06 at 21h 37m 44s.xml">
-      <configuration name="SoapTestScenario1.CelsiusToFahrenheitResponse" configurationId="TestNG" />
+    <history-entry file="SoapTestScenario1_doGetSoapCall_contains - 2022.08.07 at 09h 45m 20s.xml">
+      <configuration name="SoapTestScenario1.doGetSoapCall_contains" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SoapTestScenario1_(1) - 2022.08.06 at 21h 37m 44s.xml">
-      <configuration name="SoapTestScenario1 (1)" configurationId="TestNG" />
+    <history-entry file="SoapTestScenario1_doGetSoapCall_contains - 2022.08.07 at 09h 49m 13s.xml">
+      <configuration name="SoapTestScenario1.doGetSoapCall_contains" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SoapTestScenario1_CelsiusToFahrenheitResponse - 2022.08.06 at 21h 38m 38s.xml">
-      <configuration name="SoapTestScenario1.CelsiusToFahrenheitResponse" configurationId="TestNG" />
+    <history-entry file="SoapTestScenario1_doGetSoapCall_contains - 2022.08.07 at 09h 53m 00s.xml">
+      <configuration name="SoapTestScenario1.doGetSoapCall_contains" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1438" height="817" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1726361" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19770774" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -407,7 +391,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3449235" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.38803893" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991655" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -546,17 +530,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/restAssured/GoogleTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="11" column="34" lean-forward="true" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -585,15 +562,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/testdata.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="74" lean-forward="true" selection-start-line="5" selection-start-column="72" selection-end-line="5" selection-end-column="74" />
+        <state relative-caret-position="105">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="43" column="34" lean-forward="true" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/soap/SoapTestScenario1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="9" column="56" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
+        <state relative-caret-position="180">
+          <caret line="132" lean-forward="true" selection-start-line="132" selection-end-line="132" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

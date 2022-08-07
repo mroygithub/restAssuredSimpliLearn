@@ -9,6 +9,9 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import static io.restassured.path.xml.config.XmlPathConfig.xmlPathConfig;
 import reusable.Reusable;
+import static org.hamcrest.CoreMatchers.*;
+import static org.hamcrest.xml.HasXPath.hasXPath;
+
 
 public class SoapTestScenario1 {
 
@@ -67,13 +70,66 @@ public class SoapTestScenario1 {
         System.out.println("The Status Code is==>"+response.getStatusCode());
         System.out.println("The Response Body is==>"+response.getBody().asString());
 
-        XmlPath xml_path_obj = new XmlPath(response.getBody().asString()).using(xmlPathConfig().namespaceAware(false));
+            XmlPath xml_path_obj = new XmlPath(response.getBody().asString()).using(xmlPathConfig().namespaceAware(false));
 
-        String CelsiusToFahrenheitResult = xml_path_obj.getString("soap:Envelope.soap:Body.CelsiusToFahrenheitResponse.CelsiusToFahrenheitResult");
+            String CelsiusToFahrenheitResult = xml_path_obj.getString("soap:Envelope.soap:Body.CelsiusToFahrenheitResponse.CelsiusToFahrenheitResult");
 
-        System.out.println("The CelsiusToFahrenheitResult is==>"+CelsiusToFahrenheitResult);
+            System.out.println("The CelsiusToFahrenheitResult is==>"+CelsiusToFahrenheitResult);
         Assert.assertEquals(Fahrenheit,CelsiusToFahrenheitResult);
     }
+
+
+
+    @Test
+    public void doGetSoapCall(){
+
+        get("https://chercher.tech/sample/api/books.xml")
+                .then().assertThat()
+                .body("bookstore.book[0].title",equalTo("The Nightingale"))
+                .body("bookstore.book[0].price.hardcover",equalTo("570"))
+                .body("bookstore.book[0].@category",equalTo("cooking"))
+                .body("bookstore.book[0].title.@lang",equalTo("en"))
+                .body("bookstore.book[1].@category",equalTo("children"));
+    }
+
+
+    @Test
+    public void doGetSoapCall_1(){
+
+        get("https://chercher.tech/sample/api/books.xml")
+                .then().assertThat()
+                .body("bookstore.book[0].title",equalTo( "The Nightingale")
+                        ,"bookstore.book[0].price.hardcover",equalTo("570")
+                        ,"bookstore.book[1].price",equalTo("29.99")
+                        //.body("bookstore.book.title",containsString("Harry Potter"))
+                        ,"bookstore.book[0].@category",equalTo("cooking")
+                        ,"bookstore.book[0].title.@lang",equalTo("en")
+                        ,"bookstore.book[1].@category",equalTo("children"));
+
+    }
+
+    @Test
+    public void doGetSoapCall_2(){
+
+        get("https://chercher.tech/sample/api/books.xml")
+                .then().assertThat()
+                .body(hasXPath("/bookstore/book[1]/title",containsString("The Nightingale")))
+                .body(hasXPath("/bookstore/book[1]/@category",containsString("cooking")));
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
