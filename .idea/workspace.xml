@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="786fc6b8-7207-4b68-a654-dde35ee7baf5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/rest/REST_TEST_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/rest/REST_TEST_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/rest/REST_TEST_1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/rest/REST_TEST_1.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,43 +25,41 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/restAssured/Recres_post.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="180">
+              <caret line="12" column="51" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="51" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/soap/SoapTestScenario1.java">
+        <entry file="file://$PROJECT_DIR$/TestReport_SimpliLearn.log">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="163" selection-start-line="163" selection-end-line="163" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="238">
+              <caret line="211" column="46" lean-forward="true" selection-start-line="211" selection-start-column="46" selection-end-line="211" selection-end-column="46" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/rest/REST_TEST_1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="94">
-              <caret line="38" column="30" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="30" />
+            <state relative-caret-position="357">
+              <caret line="135" column="6" lean-forward="true" selection-start-line="135" selection-start-column="6" selection-end-line="135" selection-end-column="6" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testdata.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -86,7 +85,6 @@
         <option value="$PROJECT_DIR$/src/test/java/soap/soap.java" />
         <option value="$PROJECT_DIR$/src/main/resources/testNG/testNG.xml" />
         <option value="$PROJECT_DIR$/src/test/java/soap/soap2.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/src/test/java/reusable/FirstLof.java" />
         <option value="$PROJECT_DIR$/TestReport.log" />
@@ -99,8 +97,9 @@
         <option value="$PROJECT_DIR$/testdata.properties" />
         <option value="$PROJECT_DIR$/src/test/java/restAssured/Recres_post.java" />
         <option value="$PROJECT_DIR$/src/test/java/soap/SoapTestScenario1.java" />
-        <option value="$PROJECT_DIR$/src/test/java/rest/REST_TEST_1.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/rest/REST_TEST_1.java" />
       </list>
     </option>
   </component>
@@ -175,7 +174,23 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="rest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="comtestrestAssuredSL" type="b2602c69:ProjectViewProjectNode" />
+              <item name="comtestrestAssuredSL" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="restAssured" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="comtestrestAssuredSL" type="b2602c69:ProjectViewProjectNode" />
+              <item name="comtestrestAssuredSL" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="reusable" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="comtestrestAssuredSL" type="b2602c69:ProjectViewProjectNode" />
@@ -194,7 +209,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1659889008309" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1659891638552" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -217,7 +232,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.REST_TEST_1.validateWithContains_SOAP_2">
+  <component name="RunManager" selected="TestNG.REST_TEST_1">
+    <configuration name="REST_TEST_1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="comtestrestAssuredSL" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="rest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="rest" />
+      <option name="MAIN_CLASS_NAME" value="rest.REST_TEST_1" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="REST_TEST_1.doGetRESTCall" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="comtestrestAssuredSL" />
       <extension name="coverage">
@@ -272,24 +303,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SoapTestScenario1.validateWithContains_SOAP" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="comtestrestAssuredSL" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="soap.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="soap" />
-      <option name="MAIN_CLASS_NAME" value="soap.SoapTestScenario1" />
-      <option name="METHOD_NAME" value="validateWithContains_SOAP" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SoapTestScenario1.validateWithContains_SOAP_2" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="comtestrestAssuredSL" />
       <extension name="coverage">
@@ -310,11 +323,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.REST_TEST_1" />
         <item itemvalue="TestNG.REST_TEST_1.validateWithContains_SOAP_2" />
         <item itemvalue="TestNG.REST_TEST_1.doPOSTRESTCall" />
         <item itemvalue="TestNG.REST_TEST_1.doGetRESTCall" />
         <item itemvalue="TestNG.SoapTestScenario1.validateWithContains_SOAP_2" />
-        <item itemvalue="TestNG.SoapTestScenario1.validateWithContains_SOAP" />
       </list>
     </recent_temporary>
   </component>
@@ -332,9 +345,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="REST_TEST_1_doPOSTRESTCall - 2022.08.07 at 20h 34m 20s.xml">
-      <configuration name="REST_TEST_1.doPOSTRESTCall" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="REST_TEST_1_doPOSTRESTCall - 2022.08.07 at 20h 37m 36s.xml">
       <configuration name="REST_TEST_1.doPOSTRESTCall" configurationId="TestNG" />
     </history-entry>
@@ -362,11 +372,15 @@
     <history-entry file="REST_TEST_1_validateWithContains_SOAP_2 - 2022.08.07 at 21h 32m 18s.xml">
       <configuration name="REST_TEST_1.validateWithContains_SOAP_2" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="REST_TEST_1 - 2022.08.07 at 21h 58m 59s.xml">
+      <configuration name="REST_TEST_1" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1438" height="817" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19770774" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19770774" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -375,7 +389,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.28511822" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28511822" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991655" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -524,27 +538,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/reusable/Reusable.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="334">
+          <caret line="52" column="21" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/testdata.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/restAssured/Recres_post.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
+        <state relative-caret-position="375">
           <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/reusable/Reusable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="93" selection-start-line="14" selection-start-column="74" selection-end-line="14" selection-end-column="93" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -553,7 +574,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/soap/SoapTestScenario1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
+        <state relative-caret-position="2445">
           <caret line="163" selection-start-line="163" selection-end-line="163" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -561,25 +582,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="51" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestReport_SimpliLearn.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="211" column="46" lean-forward="true" selection-start-line="211" selection-start-column="46" selection-end-line="211" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/rest/REST_TEST_1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="38" column="30" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="30" />
+        <state relative-caret-position="357">
+          <caret line="135" column="6" lean-forward="true" selection-start-line="135" selection-start-column="6" selection-end-line="135" selection-end-column="6" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="52" column="21" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
