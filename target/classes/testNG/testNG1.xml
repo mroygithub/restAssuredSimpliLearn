@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1" verbose="1" >
+    <test name="SOAP_TEST_CASES" >
+        <classes>
+            <class name="soap.SoapTestScenario1" />
+        </classes>
+    </test>
+</suite>
