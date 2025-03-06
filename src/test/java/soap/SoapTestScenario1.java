@@ -11,7 +11,9 @@ import static io.restassured.path.xml.config.XmlPathConfig.xmlPathConfig;
 import reusable.Reusable;
 import static org.hamcrest.CoreMatchers.*;
 import static org.hamcrest.xml.HasXPath.hasXPath;
-
+import java.io.File;
+import javax.xml.parsers.*;
+import org.w3c.dom.*;
 
 public class SoapTestScenario1 {
 
@@ -175,6 +177,26 @@ public class SoapTestScenario1 {
 
 
 
+    }
+
+
+    @Test
+    public void justTesting() throws Exception{
+
+        File fXmlFile = new File(System.getProperty("user.dir")+"/pom.xml");
+        DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
+        DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
+        Document doc = dBuilder.parse(fXmlFile);
+
+        String res = doc.toString();
+
+        //XmlPath xml_path_obj = new XmlPath(res).using(xmlPathConfig().namespaceAware(false));
+        String nodevalue =  doc.getElementsByTagName("testing005").item(0).getTextContent();
+
+        // First get the count of node you want to test ...
+
+        //String test = xml_path_obj.getString("project.properties.testing005");
+        System.out.println(nodevalue);
     }
 
 

@@ -45,9 +45,6 @@ public class REST_TEST_1 {
 
     }
 
-
-
-
     @Test
     public void doPOSTRESTCall(){
 
@@ -91,6 +88,7 @@ public class REST_TEST_1 {
                 get("https://reqres.in/api/users?page=2");
 
         String res = response.getBody().asString();
+        System.out.println(res);
 
 
         // First get the count of node you want to test ...

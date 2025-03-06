@@ -1,0 +1,19 @@
+{
+  "HomePage": [
+    {
+      "TC_001":
+      {
+        "url": "www.google.com",
+        "TYPE": "get",
+        "title": "Google"
+      }
+    ,
+      "TC_002":
+      {
+        "url": "https://www.facebook.com",
+        "TYPE": "get",
+        "title": "Google"
+      }
+    }
+  ]
+}

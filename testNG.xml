@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1">
+    <parameter name="url" value="${AppUrlValue}"></parameter>
+    <test name="Nopackage" >
+        <classes>
+            <class name="rest.HomeWork1" />
+        </classes>
+    </test>
+
+
+</suite>

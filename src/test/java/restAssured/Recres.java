@@ -3,6 +3,7 @@ package restAssured;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import org.junit.Assert;
+import org.testng.annotations.Test;
 import reusable.Reusable;
 
 public class Recres {
@@ -37,6 +38,25 @@ public class Recres {
         System.out.println("After hitting Google URL , response looks like :"+ resBody);
 
     }
+
+    public static void CreateANewDeck(){
+
+        RestAssured.baseURI="https://deckofcardsapi.com/api/deck/new/";
+        Response res = RestAssured.get();
+        int ststua_Code = res.getStatusCode();
+        String resBody = res.getBody().asString();
+    }
+
+    public static void ShuffleDeck(String dskID){
+
+        RestAssured.baseURI="https://deckofcardsapi.com/api/deck/"+dskID+"/shuffle/?remaining=true";
+        Response res = RestAssured.get();
+        int ststua_Code = res.getStatusCode();
+        String resBody = res.getBody().asString();
+    }
+
+
+
 
 
 

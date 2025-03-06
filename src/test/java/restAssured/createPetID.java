@@ -36,32 +36,4 @@ public class createPetID {
         System.out.println("After hitting Google URL , response looks like :"+ resBody);
 
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }

@@ -1,0 +1,61 @@
+{
+	"id": "04a0f428-503b-4c44-95dd-ea908d1897ed",
+	"name": "SOAP POST CALL",
+	"timestamp": "2024-02-29T08:07:45.812Z",
+	"collection_id": "22258682-5656ed71-f9b9-4386-b92b-3f145dd43354",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 3,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-02-29T08:07:43.179Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "6750c874-4826-42f1-9a2e-0c2c2fbb85ce",
+			"name": "NumberConversion",
+			"url": "https://www.dataaccess.com/webservicesserver/NumberConversion.wso",
+			"time": 304,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Number Conversion is done ...": true
+			},
+			"testPassFailCounts": {
+				"Number Conversion is done ...": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1178,
+				295,
+				304
+			],
+			"allTests": [
+				{
+					"Number Conversion is done ...": true
+				},
+				{
+					"Number Conversion is done ...": true
+				},
+				{
+					"Number Conversion is done ...": true
+				}
+			]
+		}
+	],
+	"count": 3,
+	"totalTime": 1777,
+	"collection": {
+		"requests": [
+			{
+				"id": "6750c874-4826-42f1-9a2e-0c2c2fbb85ce",
+				"method": "POST"
+			}
+		]
+	}
+}
